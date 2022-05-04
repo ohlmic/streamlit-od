@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 
 def app():
-     st.subheader('Machine learning')
+     st.subheader('Object detection')
 
      chart_data = pd.DataFrame(
           np.random.randn(20, 3),
