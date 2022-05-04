@@ -4,7 +4,7 @@ import os
 from itertools import cycle
 
 def app():
-    st.subheader('Media browser')
+    st.subheader('Data browser')
     filteredImages = os.listdir("images") # your images here
     #caption = [] # your caption here
     cols = cycle(st.columns(2)) # st.columns here since it is out of beta at the time I'm writing this

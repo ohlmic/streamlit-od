@@ -8,7 +8,7 @@ from pages import data_browser, machine_learning, data_overview #, metadata, dat
 app = MultiPage()
 
 # Title of the main page
-st.title("Object Detection App")
+#st.title("Object Detection App")
 
 # Add all your applications (pages) here
 app.add_page("Data Browser", data_browser.app)
