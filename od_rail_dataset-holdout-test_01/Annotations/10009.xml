@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>10009.jpg</filename>
+	<path>C:\Users\mohlsson\OneDrive - Capgemini\Documents\programmering\object-detection\dataset_kaggle\test\10009.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1050</width>
+		<height>1040</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>KPO</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>396</xmin>
+			<ymin>519</ymin>
+			<xmax>666</xmax>
+			<ymax>974</ymax>
+		</bndbox>
+	</object>
+</annotation>

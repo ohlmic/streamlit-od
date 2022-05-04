@@ -1,0 +1,38 @@
+<annotation>
+	<folder>test</folder>
+	<filename>11002.jpg</filename>
+	<path>C:\Users\mohlsson\OneDrive - Capgemini\Documents\programmering\object-detection\dataset_kaggle\test\11002.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1050</width>
+		<height>1040</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>tension_clamp</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>121</xmin>
+			<ymin>526</ymin>
+			<xmax>430</xmax>
+			<ymax>1000</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>tension_clamp</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>918</xmin>
+			<ymin>516</ymin>
+			<xmax>1050</xmax>
+			<ymax>982</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -25,6 +25,9 @@ def app():
             color=alt.Color("variable", type="nominal", title="Classes"),
             order=alt.Order("variable", sort="descending"),
         )
+        .properties(
+    width=1000,
+    height=200)
     )
 
     st.altair_chart(chart, use_container_width=True)
