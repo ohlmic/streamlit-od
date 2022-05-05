@@ -12,7 +12,8 @@ def app():
      net.load_parameters('saved_models/ssd_512_mobilenet1.2_railway.params')
      x, image = gcv.data.transforms.presets.ssd.load_test('od_rail_dataset-holdout-test_01/11003.jpg', 512)
      cid, score, bbox = net(x)
+     fig = plt.gcf()
      ax = viz.plot_bbox(image, bbox[0], score[0], cid[0], class_names=classes)
-     st.pyplot(ax)
+     st.pyplot(fig)
      #plt.show()
 
